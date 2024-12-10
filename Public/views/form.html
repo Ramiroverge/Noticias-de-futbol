@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Public/css/style-form.css">
+</head>
+<body>
+<header>
+    <div>
+      <h1>Página Web futbolera</h1>
+      <p>Bienvenidos a la pasión del fútbol</p>
+    </div>
+  </header>
+  <nav class="navbar">
+    <a href="../../index.html">INICIO</a>
+    <a href="../views/clubes-argentinos.html">CLUBES ARGENTINOS</a>
+    <a href="/Public/views/clubes-europeos.html">CLUBES EUROPEOS</a>
+    <a href="">REGISTRO</a>
+  </nav>
+
+    <form action="">
+        <fieldset>
+            <legend>Formulario de Registro</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" required>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" id="pass" required>
+            <label for="fecha">Fecha de Nacimiento</label>
+            <input type="date" name="fecha" id="fecha" required>
+            <label for="comment">Dejanos tu opinión</label>
+            <textarea name="comment" id="comment"></textarea>
+            <input type="submit" value="Registrarse">
+            <input type="reset" value="Borrar">
+        </fieldset>
+    </form>
+    <footer>
+        <p>&copy; Ramiro Verge, Potrero Digital 2024</p>
+    </footer>
+</body>
+</html>

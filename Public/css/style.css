@@ -1,0 +1,153 @@
+/*colores: 
+background-color: rgba(255, 255, 255, 0.4);
+verde oscuro: #1a4705;
+verde claro: #9EE37D;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #9EE37D;
+  background-image: url(../img/126161329-patrón-de-doodle-de-fondo-de-fútbol-soccer-fondo-de-ilustración-vectorial-para-impresión-textil.jpg);
+  background-size: cover;
+}
+
+header div {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  border-radius: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #9EE37D;
+  position: sticky !important;
+  top: 0;
+  z-index: 1;
+  justify-content: space-evenly !important;
+}
+
+.navbar a {
+  color: black;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  background-color: #CFFCFF;
+  color: #1a4705;
+}
+
+@media (max-width:581px) {
+  .navbar {
+    flex-direction: column;
+    position: unset;
+  }
+}
+
+@media (max-width:581px) {
+  .principal {
+    flex-direction: column;
+  }
+}
+
+.principal {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #1a4705;
+}
+
+.principal img {
+  align-content: center;
+  width: 80%;
+  border-radius: 10px;
+}
+
+
+aside {
+  flex-basis: 25%;
+  background-color: #9EE37D;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+aside h3 {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  flex: 75%;
+  /* El main ocupará el 75% del ancho */
+  background-color: #ffffff;
+  padding: 20px;
+  margin-right: 20px;
+  /* Espacio entre main y aside */
+  border-radius: 8px;
+  background-color: #9EE37D;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+
+.fotos-main img {
+  border: #1a4705 solid 5px;
+}
+
+
+
+.tabla-primera img {
+  text-align: center;
+  width: 400px;
+  height: 850px;
+  border: #1a4705 solid 5px;
+}
+
+.tabla-anual-2 img {
+  text-align: center;
+  width: 400px;
+  height: 850px;
+  border: #1a4705 solid 5px;
+}
+
+.fotoprom img {
+  text-align: center;
+  width: 400px;
+  height: 850px;
+  border: #1a4705 solid 5px;
+}
+
+
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  background-color: #9EE37D;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
